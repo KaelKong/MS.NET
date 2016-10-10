@@ -1,0 +1,6 @@
+C:\Users\KaelKong\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\bin\Debug\ConsoleDemo.exe.config
+C:\Users\KaelKong\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\bin\Debug\ConsoleDemo.exe
+C:\Users\KaelKong\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\bin\Debug\ConsoleDemo.pdb
+C:\Users\KaelKong\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.csprojResolveAssemblyReference.cache
+C:\Users\KaelKong\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.exe
+C:\Users\KaelKong\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.pdb
