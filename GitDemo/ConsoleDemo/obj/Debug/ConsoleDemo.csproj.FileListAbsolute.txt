@@ -10,3 +10,6 @@ C:\Users\KaelK\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDem
 D:\Project\Git.NET\GitDemo\ConsoleDemo\bin\Debug\ConsoleDemo.exe.config
 D:\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.exe
 D:\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.pdb
+C:\Projects\Git.NET\GitDemo\ConsoleDemo\bin\Debug\ConsoleDemo.exe.config
+C:\Projects\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.exe
+C:\Projects\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.pdb
