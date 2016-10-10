@@ -7,6 +7,3 @@ C:\Users\KaelKong\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\Console
 C:\Users\KaelK\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\bin\Debug\ConsoleDemo.exe.config
 C:\Users\KaelK\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.exe
 C:\Users\KaelK\OneDrive\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.pdb
-D:\Project\Git.NET\GitDemo\ConsoleDemo\bin\Debug\ConsoleDemo.exe.config
-D:\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.exe
-D:\Project\Git.NET\GitDemo\ConsoleDemo\obj\Debug\ConsoleDemo.pdb

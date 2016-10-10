@@ -10,7 +10,7 @@ namespace ConsoleDemo
     {
         static void Main(string[] args)
         {
-            //添加有趣的项目
+            Console.WriteLine("Hello World!1");
         }
     }
 }
