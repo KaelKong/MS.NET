@@ -1,0 +1,6 @@
+D:\Project\GitHub\MS.NET\Interstellar\DrawShape\bin\Debug\DrawShape.exe.config
+D:\Project\GitHub\MS.NET\Interstellar\DrawShape\bin\Debug\DrawShape.exe
+D:\Project\GitHub\MS.NET\Interstellar\DrawShape\bin\Debug\DrawShape.pdb
+D:\Project\GitHub\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.exe
+D:\Project\GitHub\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.pdb
+D:\Project\GitHub\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.csprojResolveAssemblyReference.cache

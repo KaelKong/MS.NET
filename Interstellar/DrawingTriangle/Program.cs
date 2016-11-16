@@ -10,6 +10,14 @@ namespace DrawingTriangle
     {
         static void Main(string[] args)
         {
+
+            DrawTriangle();
+
+        }
+
+        //画三角形
+        static void DrawTriangle()
+        {
             /*输入参数*/
             /*
                             *
@@ -42,7 +50,7 @@ namespace DrawingTriangle
                 pointNumber[i] = pointNumber[i - 1] + 2;
             }
 
-            int width = pointNumber[triangleRow-1];  //三角形的长
+            int width = pointNumber[triangleRow - 1];  //三角形的长
             int hight = triangleRow;  //三角形的高
             int distance = width + 1;  //每两个三角形间的距离
             int x = width * row + row - 1;  //计算出整个图形的宽
@@ -85,8 +93,6 @@ namespace DrawingTriangle
             }
 
             Console.Read();
-
-
         }
     }
 }
