@@ -10,18 +10,41 @@ namespace DrawingTriangle
     {
         static void Main(string[] args)
         {
-            /*图形参数*/
-            int width = 7;  //三角形的长
-            int hight = 4;  //三角形的高
-            int[] pointNumber = new int[] { 1, 3, 5, 7 };  //每排的点数
-            int distance = 8;  //每两个三角形间的距离
-
             /*输入参数*/
-            int row = 10;  //行数（以一个完整三角形为一行）
+            /*
+                            *
+                          ***
+                        ***** ----------------------------------------第一行
+                       *        *
+                     ***     ***
+                   *****  *****-------------------------------------第二行
+             */
+            int row = 10;  //需要生成的行数（以一个完整三角形为一行）
 
+            /*
+                            *
+                          ***
+                        ***** ----------------------------------------三角形大小为 3 层
+                           *         
+                         ***     
+                       *****
+                     ******* ---------------------------------------三角形大小为 4 层   
+             */
+            int triangleRow = 1; //输入模型三角形大小
 
+            /*图形参数*/
 
+            int[] pointNumber = new int[triangleRow];
+            pointNumber[0] = 1;
 
+            for (int i = 1; i < triangleRow; i++)
+            {
+                pointNumber[i] = pointNumber[i - 1] + 2;
+            }
+
+            int width = pointNumber[triangleRow-1];  //三角形的长
+            int hight = triangleRow;  //三角形的高
+            int distance = width + 1;  //每两个三角形间的距离
             int x = width * row + row - 1;  //计算出整个图形的宽
             int y = hight * row;                 //计算出整个图形的高
 
@@ -54,10 +77,10 @@ namespace DrawingTriangle
                     {
                         Console.Write("   ");
                     }
-                    System.Threading.Thread.Sleep(10);
+                    //System.Threading.Thread.Sleep(10);
                 }
 
-                
+
                 Console.Write("\n");
             }
 
