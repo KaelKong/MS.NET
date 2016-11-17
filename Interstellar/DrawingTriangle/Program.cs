@@ -1,20 +1,109 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace DrawingTriangle
 {
     class Program
     {
+        static string result = string.Empty;
+        static bool flag = false;
+        private static object obj = new object();
         static void Main(string[] args)
         {
+            for (float a = 0; a < 1000; a += 100)
+            {
+                Console.WriteLine(a);
+                Thread t2 = new Thread(new ParameterizedThreadStart(SubProgram));
+                t2.IsBackground = true;
+                t2.Start(a);
+            }
 
-            DrawTriangle();
-
+            Console.Read();
         }
 
+        static void CalcResult()
+        {
+
+            for (float a = 0; a < 1000; a++)
+            {
+                if (flag) break;
+                for (float b = 0; b < 1000; b += (float)0.5)
+                {
+                    if (flag) break;
+                    for (float c = 0; c < 1000; c += (float)0.5)
+                    {
+                        if (flag) break;
+                        for (float d = 0; d < 1000; d += (float)0.5)
+                        {
+                            float[] matrix = new float[] { a, b, c, d };
+                            Thread t2 = new Thread(new ParameterizedThreadStart(Test));
+                            t2.IsBackground = true;
+                            t2.Start(matrix);
+                        }
+                    }
+                }
+            }
+
+
+            Console.Read();
+        }
+
+        static void SubProgram(object obj)
+        {
+            float start = (float)obj;
+            float a = start;
+            for (; a < start + 100; a+=(float)0.5)
+            {
+                Console.WriteLine(a);
+                if (flag) break;
+
+                for (float b = 0; b < 1000; b += (float)0.5)
+                {
+                  
+                    if (flag) break;
+                    for (float c = 0; c < 1000; c += (float)0.5)
+                    {
+                        if (flag) break;
+                        for (float d = 0; d < 1000; d += (float)0.5)
+                        {
+                            if (flag) break;
+                            if (a + b == 8 && a + c == 13 && b + d == 8 && c - d == 6)
+                            {
+                                lock (obj)
+                                {
+                                    flag = true;
+                                }
+                                Console.WriteLine("The answer is {0},{1},{2},{3}", a, b, c, d);
+                                Console.WriteLine("The answer is {0},{1},{2},{3}", a, b, c, d);
+                                Console.WriteLine("The answer is {0},{1},{2},{3}", a, b, c, d);
+                                Console.WriteLine("The answer is {0},{1},{2},{3}", a, b, c, d);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        static void Test(object obj)
+        {
+            float[] matrix = (float[])obj;
+            Console.WriteLine("当前位置：a:{0},b:{1},c:{2},d:{3}", matrix[0], matrix[1], matrix[2], matrix[3]);
+            if (matrix[0] + matrix[1] == 8 && matrix[0] + matrix[2] == 13 && matrix[1] + matrix[3] == 8 && matrix[2] - matrix[3] == 6)
+            {
+                Console.WriteLine("计算结果：a:{0},b:{1},c:{2},d:{3}", matrix[0], matrix[1], matrix[2], matrix[3]);
+                lock (obj)
+                {
+                    flag = true;
+                }
+            }
+        }
         //画三角形
         static void DrawTriangle()
         {
