@@ -15,7 +15,7 @@ namespace DrawingTriangle
         private static object obj = new object();
         static void Main(string[] args)
         {
-            for (float a = 0; a < 1000; a += 100)
+            for (float a = 0; a < 10; a++)
             {
                 Console.WriteLine(a);
                 Thread t2 = new Thread(new ParameterizedThreadStart(SubProgram));
@@ -28,7 +28,6 @@ namespace DrawingTriangle
 
         static void CalcResult()
         {
-
             for (float a = 0; a < 1000; a++)
             {
                 if (flag) break;
@@ -57,19 +56,19 @@ namespace DrawingTriangle
         {
             float start = (float)obj;
             float a = start;
-            for (; a < start + 100; a+=(float)0.5)
+            for (; a < start+1; a+=(float)0.1)
             {
                 Console.WriteLine(a);
                 if (flag) break;
 
-                for (float b = 0; b < 1000; b += (float)0.5)
+                for (float b = 0; b < 10; b += (float)0.10)
                 {
                   
                     if (flag) break;
-                    for (float c = 0; c < 1000; c += (float)0.5)
+                    for (float c = 0; c < 10; c += (float)0.10)
                     {
                         if (flag) break;
-                        for (float d = 0; d < 1000; d += (float)0.5)
+                        for (float d = 0; d < 10; d += (float)0.1)
                         {
                             if (flag) break;
                             if (a + b == 8 && a + c == 13 && b + d == 8 && c - d == 6)

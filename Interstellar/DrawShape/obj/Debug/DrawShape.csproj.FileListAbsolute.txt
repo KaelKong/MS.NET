@@ -4,3 +4,9 @@ D:\Project\GitHub\MS.NET\Interstellar\DrawShape\bin\Debug\DrawShape.pdb
 D:\Project\GitHub\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.exe
 D:\Project\GitHub\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.pdb
 D:\Project\GitHub\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.csprojResolveAssemblyReference.cache
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawShape\bin\Debug\DrawShape.exe.config
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawShape\bin\Debug\DrawShape.exe
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawShape\bin\Debug\DrawShape.pdb
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.csprojResolveAssemblyReference.cache
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.exe
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawShape\obj\Debug\DrawShape.pdb

@@ -3,3 +3,9 @@ D:\Project\GitHub\MS.NET\Interstellar\DrawingTriangle\bin\Debug\DrawingTriangle.
 D:\Project\GitHub\MS.NET\Interstellar\DrawingTriangle\bin\Debug\DrawingTriangle.pdb
 D:\Project\GitHub\MS.NET\Interstellar\DrawingTriangle\obj\Debug\DrawingTriangle.exe
 D:\Project\GitHub\MS.NET\Interstellar\DrawingTriangle\obj\Debug\DrawingTriangle.pdb
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawingTriangle\bin\Debug\DrawingTriangle.exe.config
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawingTriangle\bin\Debug\DrawingTriangle.exe
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawingTriangle\bin\Debug\DrawingTriangle.pdb
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawingTriangle\obj\Debug\DrawingTriangle.csprojResolveAssemblyReference.cache
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawingTriangle\obj\Debug\DrawingTriangle.exe
+C:\Users\KaelK\Documents\Projects\Github\MS.NET\Interstellar\DrawingTriangle\obj\Debug\DrawingTriangle.pdb
